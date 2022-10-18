@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(111.5deg, rgb(167, 188, 224) 21.9%, rgb(255, 216, 194) 92.2%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ff895d;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  letter-spacing: 12px;
+}
+
+p {
+  text-align: left;
+  margin: 30px auto;
+  color: #394a51;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+span {
+  font-weight: bolder;
+}
+
+em {
+  font-weight: bolder;
+  color: #394a51;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 80px;
+  background-color: #ff895d;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(212, 98, 37, 0.5);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: #007cb9;
+  color: #ff895d;
+  cursor: pointer;
+}
+
+.page {
+  background-color: white;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+.icon {
+  display: block;
+  width: 50px;
+  padding: auto;
+  margin: auto;
+}
+
+.hikingMan {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.learnMore {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007cb9;
+  font-size: 14px;
+}
+
+.learnMore :hover {
+  text-decoration: underline;
+  color: #ff895d;
+}
+
+.footer {
+  color: #007cb9;
+  text-align: center;
+  font-size: 12px;
+  border: solid #007cb9 2px;
+  border-radius: 5px;
+  padding: 20px;
+}
